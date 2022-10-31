@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6225169000069976228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6225169000069976230}
+  - component: {fileID: 6225169000069976229}
+  m_Layer: 0
+  m_Name: HeroSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6225169000069976230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6225169000069976228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6225169000069976229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6225169000069976228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a99e157cdb315403e9a81af5baf7ddfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _alliesToSpawn:
+  - {fileID: 5947062594017971663, guid: 812ea906d624b4ee0aa687e97f0d5e0a, type: 3}
+  - {fileID: 2917568725691191989, guid: 530393648252e4ac2999cfa12f045f4a, type: 3}
+  - {fileID: 6418938765552796653, guid: cc91bd9e0727346f586f089d63a0559a, type: 3}
+  - {fileID: 5423058799346421945, guid: 0595d139798bd452eacee41f55fe7660, type: 3}
+  - {fileID: 3382409710315135494, guid: 2eda3165cfe6e4026a29308a6348b35a, type: 3}
+  _enemiesToSpawn:
+  - {fileID: 9017937682838389263, guid: 5297a7ca5a1a44fb58eebcf8cd320adc, type: 3}
+  - {fileID: 7122222257496188537, guid: ded05323b25c149eb804012607fe1466, type: 3}
+  - {fileID: 2788866757239511856, guid: d6e3e784762d74c9ca0f038d4781dac1, type: 3}
+  - {fileID: 2587367402235255263, guid: 85d5a83b344d24d379471779e7297b51, type: 3}
+  - {fileID: 8329599335786925040, guid: eafce3c8e328747d7b8f556e8b8b990c, type: 3}
