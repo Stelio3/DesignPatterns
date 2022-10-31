@@ -86,6 +86,16 @@
      <Compile Include="Assets\Factory\Scripts\PowerUps\PowerUpFactory.cs" />
      <Compile Include="Assets\Factory\Scripts\PowerUps\PowerUpSpawner.cs" />
      <Compile Include="Assets\Factory\Scripts\PowerUps\SpeedPowerUp.cs" />
+     <Compile Include="Assets\Mediator\Code\MainMenu.cs" />
+     <Compile Include="Assets\Mediator\Code\MenuMediator.cs" />
+     <Compile Include="Assets\Mediator\Code\SettingsMenu.cs" />
+     <Compile Include="Assets\Mediator\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Mediator\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Mediator\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Mediator\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Mediator\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Mediator\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Mediator\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <None Include="Assets\Builder\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Builder\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Builder\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -99,6 +109,7 @@
      <None Include="Assets\Builder\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Builder\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Builder\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Mediator\Plugins\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Builder\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Builder\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Builder\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -286,6 +297,9 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.24f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/Users/Pablo_Hdez/Desktop/Mis Videojuegos/Unity/DesignPatterns/Assets/Mediator/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.24f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
